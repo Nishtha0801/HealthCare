@@ -10,6 +10,7 @@
     background-color:#ffe4c4a6;
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 }
 .pic{
@@ -82,4 +83,120 @@ ul li{
     left: 30%;
     width: 700px;
     font-weight: 550;
+}
+@media only screen and (orientation:portrait) and (max-width:1025px){
+    .pic2{
+        display: none;
+    }
+    .heading{
+        left: 16%;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:1370px){
+    
+    .heading{
+        left: 23%;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:770px){
+    
+    .heading{
+        font-size: xx-large;
+        width: 80%;
+        left: 10%;
+    }
+    li{
+        margin-right: 5vw;
+    }
+}
+@media only screen and (orientation:portrait) and (max-width:550px){
+    .pic{
+        display: none;
+    }
+    .heading{
+        font-size: x-large;
+        width: 90%;
+        left: 5%;
+    }
+    
+    .info{
+        padding-right: 5vw;
+        padding-left: 5vw;
+        background-image: url(./photo.webp);
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+    
+    ul li{
+        min-width: 300px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:830px){
+    .container{
+        overflow: scroll;
+        position: relative;
+    }
+    .heading{
+        left: 20%;
+        font-size: xx-large;
+        width: 60%;
+        
+    }
+    .pic2{
+        display: none;
+    }
+    .info{
+        margin-top: 25%;
+        margin-right: 5%;
+        
+    }
+    ul{
+        padding-bottom: 50px;
+    }
+    ul li{
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        
+    }
+    .pic{
+        margin-top: 50px;
+        background-position: left bottom;
+        min-height: 100%;
+        
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:670px){
+   ul{
+       margin-top: 35%;
+   }
+   .heading{
+       width: 80%;
+       left: 10%;
+   }
+   ul li{
+       min-width: 270px;
+       font-size: medium;
+   }
+}
+@media only screen and (orientation:portrait) and (max-width:320px){
+    .heading{
+        font-size: large;
+    }
+    ul li{
+        height: 40px;
+        min-width: 270px;
+        padding: 5px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (orientation:landscape) and (max-width:570px){
+    ul li{
+        min-width: 250px ;
+        font-size: medium;
+    }
 }
