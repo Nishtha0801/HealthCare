@@ -26,6 +26,13 @@
     background-image: url(./bg.png);
     padding-bottom: 5%; 
     padding-top: 5%;
+    background: repeating-linear-gradient(
+        -45deg,
+        #f5b7c738,
+        #f5b7c738 300px,
+        rgba(255,255,255,1) 300px,
+        rgba(255,255,255,1) 600px
+        );
 }
 
 
@@ -39,6 +46,7 @@
     justify-content: left;
     height: 1050px;
     min-height: fit-content;
+    background-color: #E5B1E4;
     
 }
 
