@@ -23,7 +23,6 @@
     width: 100%;
     min-height: 100%;
     height: fit-content;
-    background-image: url(./bg.png);
     padding-bottom: 5%; 
     padding-top: 5%;
     background: repeating-linear-gradient(

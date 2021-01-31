@@ -102,7 +102,7 @@
   height: fit-content;
   align-items: center;
   justify-content: center;
-  display: none;
+  /* display: none; */
 }
 
 .reqBtn{
@@ -378,5 +378,9 @@ input{
 }
 
 .seePendingReq{
+  display: none;
+}
+
+.patientList{
   display: none;
 }

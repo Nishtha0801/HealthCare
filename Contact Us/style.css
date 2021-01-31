@@ -19,13 +19,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right bottom;
-    overflow: scroll;
+    /* overflow: scroll; */
 }
-.pic{
-    
-    height: 100vh;
-    width: 100vw;
-}
+
 form{
     display: flex;
     flex-direction: column;
