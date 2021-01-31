@@ -26,12 +26,19 @@
     background-image: url(./bg.png);
     padding-bottom: 5%; 
     padding-top: 5%;
+    background: repeating-linear-gradient(
+        -45deg,
+        #f5b7c738,
+        #f5b7c738 300px,
+        rgba(255,255,255,1) 300px,
+        rgba(255,255,255,1) 600px
+        );
 }
 
 
 .container{
     margin: auto;
-    width: 85%;
+    width: 80%;
     overflow: hidden;
     border-radius: 10px;
     position: relative;
@@ -39,6 +46,11 @@
     justify-content: left;
     height: 1050px;
     min-height: fit-content;
+    background-color: white;
+    background-image: url(./doctor-giving-health-report-2496477-2107735.webp);
+    background-repeat: no-repeat;
+    background-position: center left ;
+    background-size: 80%;
     
 }
 
@@ -58,14 +70,14 @@ margin-left: 0%;
     /* left: 25%; */
     right: 0px;
     height:auto;
-    width: 38%;
+    width: 47.5%;
     border-radius: 0px 10px 10px 0px;
     backdrop-filter: blur(7px);
     min-height: fit-content;
     padding: 60px 90px;
     box-shadow: 0px 0 20px -10px #888;
-    background-color: white;
-    /* backdrop-filter: blur(15px); */
+    background-color: rgba(255, 255, 255, 0.308);
+    backdrop-filter: blur(7px);
     
 }
 
@@ -82,7 +94,7 @@ margin-left: 0%;
     width: 80px;
     border-radius:20px ;
     color: white;
-    background-color:  #e5b1e4 ;
+    background-color:  #ED9FB4 ;
     font-size: small;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,7 +119,7 @@ margin-left: 0%;
     align-items: center;
     margin-right: 50px;
     cursor: pointer;
-    background-color:  #e5b1e4 ;
+    background-color:  #ED9FB4 ;
     transition: 1s;
 }
 
@@ -139,7 +151,10 @@ input{
     font-weight: 600;
     color: rgb(75, 72, 72);
     padding: 10px;
-
+    
+}
+label{
+    font-size: larger ;
 }
 input:focus{
     outline: none;
@@ -155,7 +170,7 @@ form{
     width: 100px;
     border-radius:30px ;
     color: white;
-    background-color:  #e5b1e4 ;
+    background-color:  #ED9FB4 ;
     font-size: medium;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
