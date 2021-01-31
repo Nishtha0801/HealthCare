@@ -15,16 +15,20 @@
 <body>
     <div class="page">
         <div class="container">
-            <div class="div1">
-                <div class="photo"></div>
-                <div class="name">Name</div>
-                <div class="common" id="option1">
-                    <i class="fas fa-user-circle"></i>Profile
-                </div>
-                <div class="common" id="option2"><i class="fas fa-vials	"></i>Lab Report</div>
-                <div class="common" id="option3"><i class="fas fa-prescription"></i>Prescription</div>
-                <div class="common" id="option4"><i class="fas fa-file-prescription"></i>E-prescription</div>
+            <div class="div1Wrapper">
+                <div class="div1">
+                    <div class="photo"></div>
+                    <div class="name">Name</div>
+                    <div class="common" id="option1">
+                        <i class="fas fa-user-circle"></i>Profile
+                    </div>
+                    <div class="common" id="option2"><i class="fas fa-flask"></i></i>Lab Report</div>
+                    <div class="common" id="option3"><i class="fas fa-prescription"></i>Prescription</div>
+                    <div class="common" id="option4"><i class="fas fa-file-prescription"></i>E-prescription</div>
+                    <div class="common" id="option5"><i class="fas fa-user-clock"></i>Pending Request</div>
+                    <div class="common" id="option6"><i class="fas fa-hospital-user"></i>Patient List</div>
 
+                </div>
             </div>
             <div class="div2">
 
@@ -35,60 +39,348 @@
                     <div class="wrap">
                         <div class="pDetails">
                             <div id="name">Doctor's Name</div>
-                            <div class="details"><div id="email"><span>Email: </span> dggghjgujg</div>
-                            <div id="mobileno"><span>Phone no.:</span> 6565689</div>
-                            <div id="address"><span> Address :</span> ffdgfhhhhhhvkgffhhhhhhhhhhh hhhhhhhhhffffffffff ffhfffffffffff hffffff gfcccc</div>
-                            <div id="email"><span>timing :</span> 56 88 788 889</div>
-                            <div id="department"><span>Department : </span>hfjfjjm</div>
-                            <div id="fees"><span>Fees :</span> 7566969</div></div>
+                            <div class="details">
+                                <div id="email"><span>Email: </span> dggghjgujg</div>
+                                <div id="mobileno"><span>Phone no.:</span> 6565689</div>
+                                <div id="address"><span> Address :</span> ffdgfhhhhhhvkgffhhhhhhhhhhh
+                                    hhhhhhhhhffffffffff ffhfffffffffff hffffff gfcccc</div>
+                                <div id="email"><span>timing :</span> 56 88 788 889</div>
+                                <div id="department"><span>Department : </span>hfjfjjm</div>
+                                <div id="fees"><span>Fees :</span> 7566969</div>
+                                <div class="reqBtn">Send Request</div>
+
+                            </div>
                         </div>
                         <div class="profilePic">
                             <img src="./Avatar07.png" alt="">
-                            <div class="edit">Change</div>
+                            <div class="edit" id="changeProfilePic">Change</div>
                         </div>
-                    
-                    </div>
-                    <div class="reports">
 
-                <div class="header">
-                    <div class="sno">S. No.</div>
-                    <div class="rname">Name</div>
-                    <div class="department">Department</div>
-                    <div class="date">Date</div>
-                    <div class="format">Upload Report</div>
-                    <div class="view">Add/view</div>
-                </div>
-                <div class="item add">
-                    <div class="sno">1</div>
-                    <div class="reportName"><input type="text" name="" id="addReportName"></div>
-                    <div class="department"><input type="text" name="" id="addDepartment"></div>
-                    <div class="date"><input type="text" name="" id="addDate"></div>
-                    <div class="ReportPic"><input type="file" name="" id="addReportPic"></div>
-                    <div class="addBtn">Add</div>
-                </div>
-                <ul class="Reports">
-                        <li>
-                            <div class="item" >
-                                <div class="sno">1
+                    </div>
+                    <div class="reportsWrapper">
+
+                        <div class="header">
+                            <div class="sno">S. No.</div>
+                            <div class="rname">Name</div>
+                            <div class="department">Department</div>
+                            <div class="date">Date</div>
+                            <div class="format">Upload Report</div>
+                            <div class="view">Add/view</div>
+                        </div>
+                        <div class="item add">
+                            <div class="sno">1</div>
+                            <div class="rname"><input type="text" name="" id="addReportName"></div>
+                            <div class="department"><input type="text" name="" id="addReportDepartment"></div>
+                            <div class="date"><input type="date" name="" id="addReportDate"></div>
+                            <div class="ReportPic"><input type="file" name="" id="addReportPic"></div>
+                            <div class="addBtn">Add</div>
+                        </div>
+                        <ul class="Reports">
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
                                 </div>
-                                <div class="ReportName">xyz
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
                                 </div>
-                                <div class="department">abcfjjkk</div>
-                                <div class="date">
-                                    12/35/64
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
                                 </div>
-                                <div class="Reportpic">xyz</div>
-                                <div class="viewBtn">View</div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="eprescription">
+
+                        <div class="header">
+                            <div class="sno">S. No.</div>
+                            <div class="rname">Doctor's Name</div>
+                            <div class="department">Department</div>
+                            <div class="date">Date</div>
+                            <div class="format">Upload Prescription</div>
+                            <div class="view">Add/view</div>
+                        </div>
+                        <div class="item add">
+                            <div class="sno">1</div>
+                            <div class="rname"><input type="text" name="" id="addEpresName"></div>
+                            <div class="department"><input type="text" name="" id="addEpresDepartment"></div>
+                            <div class="date"><input type="date" name="" id="addEpresDate"></div>
+                            <div class="ReportPic"><input type="file" name="" id="addEpresPic"></div>
+                            <div class="addBtn">Add</div>
+                        </div>
+                        <ul class="Reports">
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="prescription">
+
+                        <div class="header">
+                            <div class="sno">S. No.</div>
+                            <div class="rname">Doctor's Name</div>
+                            <div class="department">Department</div>
+                            <div class="date">Date</div>
+                            <div class="format" id="seePrescription">Add Prescription</div>
+                            <div class="view">Add/view</div>
+                        </div>
+                        <div class="item add">
+                            <div class="sno">1</div>
+                            <div class="rname"><input type="text" name="" id="addPrescriptionName" ></div>
+                            <div class="department"><input type="text" name="" id="addPrescriptionDepartment"></div>
+                            <div class="date"><input type="date" name="" id="addPrescriptionDate"></div>
+                            <div class="ReportPic" >
+                                <textarea name="" id="addprescription" cols="30" rows="7"></textarea>
                             </div>
-                        </li>
-                </ul>
-            </div>
+                            <div class="addBtn">Add</div>
+                        </div>
+                        <ul class="Reports">
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="date">
+                                        12/35/64
+                                    </div>
+                                    <div class="Reportpic" id="Prescription">xysssssss ssssssssz</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="seePendingReq">
+
+                        <div class="header">
+                            <div class="sno">S. No.</div>
+                            <div class="rname">Doctor's Name</div>
+                            <div class="department">Department</div>
+                            <div class="view">Accept</div>
+                        </div>
+                        <ul class="Reports">
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzzzzzzz zzzzz zzjkk</div>
+                                    <div class="viewBtn">Accept</div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="patientList">
+
+                        <div class="header">
+                            <div class="sno">S. No.</div>
+                            <div class="rname">Patient's Name</div>
+                            <div class="department">Address</div>
+                            <div class="date">Phone</div>
+                            <div class="view">View</div>
+                        </div>
+                        <ul class="Reports">
+                            <li>
+                                <div class="item">
+                                    <div class="sno">1
+                                    </div>
+                                    <div class="ReportName">xyzzzzzzzccccz zzzz zxx
+                                    </div>
+                                    <div class="department">abcfjzzz ccccccccccccccczzzz dffffffddd dddddd zzzzz zzzzz zzjkk</div>
+                                    <div class="date">123456789</div>
+                                    <div class="viewBtn">View</div>
+                                </div>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-                
+
+                <div class="options">
+                    <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-flask"></i>
+                    <i class="fas fa-prescription"></i>
+                    <i class="fas fa-file-prescription"></i>
                 </div>
             </div>
+
         </div>
+    </div>
+    </div>
     </div>
 
 </body>
