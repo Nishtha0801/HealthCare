@@ -81,10 +81,7 @@
     .container{
         margin-top: 10%;
         background-color: white;
-        background-image: url(./port.jpg);
-        background-position: cover;
         padding: 0px;
-        background-position: 50% 60%;
     }
     .container img{
         display: none;
